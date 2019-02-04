@@ -1,0 +1,131 @@
+.donasi .gambar-donasi, .donasi .penyelenggara-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.donasi .gambar-donasi {
+  height: 190px
+}
+
+.donasi {
+  width: 100%
+}
+
+.donasi .deskripsi-donasi {
+  position: relative
+}
+
+.donasi .deskripsi-donasi h4 {
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none
+}
+
+.btn--alt, .btn-don, .donasi h4 {
+  font-weight: 700;
+  text-align: center
+}
+
+.donasi .penyelenggara-icon {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 5px;
+  position: absolute
+}
+
+.donasi .penyelenggar-donasi {
+  position: relative;
+  display: inline-block
+}
+
+.donasi .footer-donasi {
+  background-color: #7fffd4;
+  height: 100px
+}
+
+.donasi .detail-donasi {
+  margin-top: 19px;
+  margin-bottom: 18px
+}
+
+.donasi h4 {
+  margin: 0 0 10px;
+  font-size: 25px;
+  text-decoration: underline
+}
+
+.tebal {
+  font-weight: 700
+}
+
+.btn-contribute {
+  display: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  text-transform: uppercase
+}
+
+.btn--pink, .btn--pink--no-js, .btn--pink__transparent {
+  background: #da336b;
+  color: #fff
+}
+
+.btn--large {
+  padding: .75em 2.25em
+}
+
+.btn--block {
+  width: 100%
+}
+
+.btn--alt, .btn-don {
+  display: inline-block;
+  border: 0;
+  font-family: Open Sans, sans-serif;
+  line-height: normal;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 5px;
+  -webkit-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  -webkit-tap-highlight-color: transparent
+}
+
+.btn--pink--no-js:active, .btn--pink--no-js:focus, .btn--pink:active, .btn--pink:focus, .btn--pink__transparent:active, .btn--pink__transparent:focus {
+  background: #62122d;
+  color: #ccc
+}
+
+.btn--pink--no-js:hover, .btn--pink:hover, .btn--pink__transparent:hover {
+  background: #b92154;
+  color: #fff
+}
+
+.wrap-donasi {
+  margin: 20px 20px 10px;
+  width: 1000px;
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .4)
+}
+
+@media (max-width:1200px) {
+  .donasi .deskripsi-donasi h4 {
+    margin-top: 10px
+  }
+}
